@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+    <title>Personality to Music</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/product.css" rel="stylesheet">
+  </head>
+
+  <body>
+  
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+<!--         <a class="py-2" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+        </a> -->
+        <a class="py-2 d-none d-md-inline-block" href="#">Understand Data</a>
+        <a class="py-2 d-none d-md-inline-block" href="/relation">Relation</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Try it</a>
+  
+      </div>
+    </nav>
+  
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Personality to Music</h1>
+        <p class="lead font-weight-normal">Projeto desenvolvido para a disciplina de Visualização de Dados, com o intuito de identificar possíveis relações e padrões entre as preferências musicais e a personalidade de um usuário.</p>
+        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+      </div>
+      <div class="product-device box-shadow d-none d-md-block">
+      </div>
+      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+    </div>
+  
+  
+  
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Accousticness</h2>
+          <p class="lead">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3G8CM-6BZC4" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Perfect - Boyce Avenue with acousticness value of 0.857</p>
+        </div>
+      </div>
+  
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Instrumentalness</h2>
+          <p class="lead">Predicts whether a track contains no vocals. “Ooh” sounds are treated as instrumental. The closer the instrumentalness value is to 1.0</p>
+        </div>
+        
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DcFpvolRN3w?list=PLjgRy8dys94Gftb2k3o8F0CwU_LkMSRvp" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-white">Game of Thrones - 2CELLOS with instrumentalness value of 0.91</p>
+        </div>
+      </div>
+  
+  
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Liveness</h2>
+          <p class="lead">Detects the presence of an audience in the recording. A value above 0.8 provides strong likelihood that the track is live.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uJtwgZjSSYg" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Love of my life - Queen with liveness value of 0.965</p>
+        </div>
+      </div>
+    </div>
+  
+   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Energy</h2>
+          <p class="lead">Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CSvFpBOe8eY" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-light">Chop suey - System of a Down with energy value of 0.929</p>
+        </div>
+      </div>
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Valence</h2>
+          <p class="lead">A measure from 0.0 to 1.0 describing the musical positiveness. Tracks with high valence sound more positive(e.g. happy, cheerful), and low valence sound more negative(e.g. sad, angry).</p>
+        </div>
+        
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qaPDDTLkB2U" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Dona Maria - Thiago Brava with valence value of 0.924</p>
+        </div>
+      </div>
+  
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Danceability</h2>
+          <p class="lead">  Danceability describes how suitable a track is for dancing based on a combination of musical elements. A value of 0.0 is least danceable and 1.0 is most danceable.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rdfrVyCYiGM" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Vou passar cerol na mão - Bonde do tigrão with danceability value of 0.959</p>
+        </div>
+      </div>
+    </div>
+  
+     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Tempo</h2>
+          <p class="lead">Beats per minute (BPM) is the speed or pace of a given piece and derives directly from the average beat duration.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eQ9stLmdsiM" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">All 43 songs sorted by tempo from slowest to fastest [ESC Nation TV]</p>
+        </div>
+      </div>
+  
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Popularity</h2>
+          <p class="lead">Is a value between 0 and 100. Calculated by algorithm and is based, on the total number of plays the track has had and how recent.</p>
+        </div>
+        
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BQ0mxQXmLsk" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-white">Havana - Camila Cabello with popularity value of 92 in 08/07/2018</p>
+        </div>
+      </div>
+  
+  
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Organize your Music</h2>
+          <p class="lead">Organize your Spotify music by any of a wide range of musical attributes genre, mood, decade of release and more</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NGY1cthhr5g" allowfullscreen></iframe>
+          </div>
+          <a class="btn btn-outline-secondary" href="http://organizeyourmusic.playlistmachinery.com">Try It</a>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+<!-- ;;;;;;;;;;;;;;;;;;;;;;  Personality Features ..... -->
+  
+  
+     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Openness</h2>
+          <p class="lead">Openness reflects the degree of intellectual curiosity, creativity and a preference for novelty and variety.</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JLjdzMN6zHg" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-light"> Near 0.0 - closed-minded, data-driven, pragmatic</p>
+          <p class="lead text-light">Near 1.0  - curious, creative, open-minded </p>
+        </div>
+      </div>
+  
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Conscientiousness</h2>
+          <p class="lead">Tendency to be organized and dependable, show self-discipline, act dutifully, aim for achievement.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2tk4kucBHRk" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Near 0.0 - flexibility and spontaneity</p>
+          <p class="lead text-dark">Near 1.0 - stubbornness and obsession</p>
+        </div>
+      </div>
+  
+  
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Extraversion</h2>
+          <p class="lead">Positive emotions, sociability and the tendency to seek stimulation in the company of others</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1FR9Zb7D52A" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-light"> Near 0.0 - aloof or self-absorbed</p>
+          <p class="lead text-light">Near 1.0  - attention-seeking and domineering</p>
+        </div>
+      </div>
+    </div>
+    
+  
+     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Agreeableness</h2>
+          <p class="lead">Tendency to be compassionate and cooperative rather than suspicious and antagonistic towards others.</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HWJNNZYBpH0" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-dark">Near 0.0 - competitive or challenging people</p>
+          <p class="lead text-dark">Near 1.0 - naive or submissive</p>
+        </div>
+      </div>
+  
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Neuroticism</h2>
+          <p class="lead">Tendency to be prone to psychological stress. The tendency to experience unpleasant emotions easily.</p>
+        </div>
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B4n3TsstxZs" allowfullscreen></iframe>
+          </div>
+          <p class="lead text-light"> Near 0.0 -  unstable or insecure </p>
+          <p class="lead text-light">Near 1.0  - stable and calm personality </p>
+        </div>
+      </div>
+  
+  
+  
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Apply Magic Sauce</h2>
+          <p class="lead">Is a engine that accurately predicts psychological traits from digital footprints of human behaviour</p>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0;">
+          <img style="width: 100%" src="/images/ams.png">
+          <a class="btn btn-outline-secondary" href="https://applymagicsauce.com/">Try It</a>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Business</a></li>
+            <li><a class="text-muted" href="#">Education</a></li>
+            <li><a class="text-muted" href="#">Government</a></li>
+            <li><a class="text-muted" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  
+<!--   
+    Bootstrap core JavaScript
+    ==================================================
+   Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
